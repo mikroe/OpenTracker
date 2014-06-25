@@ -1,26 +1,3 @@
-/*    
-    
-    Copyright (c) 2014 "OOO NPF InPromTech", Russia [www.inpromtech.ru]
-    Copyright (c) 2014 "Tigal KG", Austria [www.tigal.com]
-
-    This software is the result of Russia-Austria partnership and open source community efforts.    
-    This software was initially developed by Andrey Sheykhot [andrey@sheykhot.com]
-
-    This file is part of OpenEasyTracker Software version 1.  
-
-    OpenEasyTracker Software is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License version 2 as published by
-    the Free Software Foundation.
-
-    OpenEasyTracker Software is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with OpenEasyTracker Software.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
   //tracker config
   #include "tracker.h"   
   
