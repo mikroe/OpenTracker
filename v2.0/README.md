@@ -1,4 +1,4 @@
-#OpenTracker (version 1.0)
+#OpenTracker (version 2.0)
 The first commercial grade, fully open source and 100% Arduino compatible GPS/GLONASS vehicle tracker with a powerful 32-bit ARM Cortex-M3 CPU.
 
 Official website: [http://opentracker.tigal.com](http://opentracker.tigal.com)
