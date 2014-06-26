@@ -14,8 +14,8 @@ This software is released under [GPL-2 license](http://www.gnu.org/licenses/gpl-
 
 Developed by:
 
-* [Tiziano Galizia](t.galizia@tigal.com)
-* [Andrey Sheykhot](a.sheykhot@tigal.com)
+* [Tiziano Galizia](mailto:t.galizia@tigal.com)
+* [Andrey Sheykhot](mailto:a.sheykhot@tigal.com)
 
 for TIGAL [www.tigal.com](https://www.tigal.com)
 
