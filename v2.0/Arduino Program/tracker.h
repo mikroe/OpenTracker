@@ -21,7 +21,7 @@
   #define DEFAULT_USER "guest"  //default APN user
   #define DEFAULT_PASS "guest"  //default APN pass  
 
-  const char HTTP_HEADER1[ ] = "POST /update.php  HTTP/1.1\r\nHost: tigalupdates.opengps.net \r\nContent-type: application/x-www-form-urlencoded\r\nContent-length:";  //HTTP header line before length 
+  const char HTTP_HEADER1[ ] = "POST /update.php  HTTP/1.0\r\nHost: tigalupdates.opengps.net \r\nContent-type: application/x-www-form-urlencoded\r\nContent-length:";  //HTTP header line before length 
   const char HTTP_HEADER2[ ] = "\r\nUser-Agent:OpenTracker2.0\r\nConnection: close\r\n\r\n";        //HTTP header line after length
   
   
