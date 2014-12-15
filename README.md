@@ -4,7 +4,10 @@ The first commercial grade, fully open source and 100% Arduino compatible GPS/GL
 Official website: [http://opentracker.tigal.com](http://opentracker.tigal.com)
 
 ---
-###Check out our [Indiegogo Campaign](https://www.indiegogo.com/projects/opentracker-v2-arm-based-gps-glonass-tracker-with-free-tracking-service/x/7923885#home) and pledge to receive some excellent perks such as generous early bird discounts.
+
+Please use latest software release 2.0.1    
+https://github.com/TIGAL/OpenTracker/tree/master/v2.0.1
+
 ---
 
 
