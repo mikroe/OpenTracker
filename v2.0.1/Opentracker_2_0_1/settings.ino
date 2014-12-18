@@ -13,7 +13,7 @@ void settings_load()
       debug_print(F("settings_load(): config.interval:"));
       debug_print(config.interval);    
       
-      if((config.interval == -1) || (config.interval == NULL))
+      if((config.interval == -1) || (config.interval == NULL)) || (config.interval > 500000 && config.interval < 555555))
         {
           debug_print(F("settings_load(): interval not found, setting default"));
           config.interval = INTERVAL;
