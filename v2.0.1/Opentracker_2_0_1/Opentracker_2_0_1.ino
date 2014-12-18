@@ -240,7 +240,7 @@ else {
            }
            else 
            {
-             debug_print(F("Error: negative sleep time."));
+             debug_print(F("Error: negative sleep time. Interval shorter than processing time"));
              delay(500); 
            }
        }
