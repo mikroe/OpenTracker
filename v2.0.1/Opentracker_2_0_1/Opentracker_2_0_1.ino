@@ -222,6 +222,7 @@ else {
          power_reboot = 0;        
        }  
      
+      sms_check(); 
     
      time_stop = millis();  
      if(time_stop > time_start)
