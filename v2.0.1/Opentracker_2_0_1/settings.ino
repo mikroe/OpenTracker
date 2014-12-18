@@ -50,35 +50,35 @@ void settings_load()
         }
       
       tmp = config.key[0];
-      if(tmp == 255)
+      if (tmp < 65 || (tmp > 90 && tmp < 97) || tmp > 122)
         {
           debug_print(F("settings_load(): key not found, setting default"));                    
           strlcpy(config.key, KEY, 12);
         }
         
        tmp = config.sms_key[0]; 
-       if(tmp == 255)
+       if (tmp < 65 || (tmp > 90 && tmp < 97) || tmp > 122)
         {
            debug_print("settings_load(): SMS key not found, setting default");                 
            strlcpy(config.sms_key, SMS_KEY, 12);
         }         
         
         tmp = config.apn[0];       
-        if(tmp == 255)
+        if (tmp < 65 || (tmp > 90 && tmp < 97) || tmp > 122)
         {
            debug_print("settings_load(): APN not set, setting default");                 
            strlcpy(config.apn, DEFAULT_APN, 20);
         }  
         
         tmp = config.user[0];  
-        if(tmp == 255)
+        if (tmp < 65 || (tmp > 90 && tmp < 97) || tmp > 122)
         {
            debug_print("settings_load(): APN user not set, setting default");                 
            strlcpy(config.user, DEFAULT_USER, 20);
         }  
         
         tmp = config.pwd[0];  
-        if(tmp == 255)
+        if (tmp < 65 || (tmp > 90 && tmp < 97) || tmp > 122)
         {
            debug_print("settings_load(): APN password not set, setting default");                 
            strlcpy(config.pwd, DEFAULT_PASS, 20);
