@@ -15,7 +15,7 @@ https://github.com/TIGAL/OpenTracker/tree/master/v2.0.1
 
 This software is released under [GPL-2 license](http://www.gnu.org/licenses/gpl-2.0.html)
 
-For Haerware and Software support please visit our Helpdesk:
+For Hardware and Software support please visit our Helpdesk:
 
 [www.tigal.com/helpdesk](https://www.tigal.com/helpdesk)
 
