@@ -67,7 +67,19 @@
 
 void setup() {
  
+	////////////// watchdog ///////////////////
+	
+	// remember that watchdog is enabled by default, calling WDT_Disable() here will disable it. If you comment out WDT_Disable(), 
+	// your code should call WDT_Restart() before the default timeout is reached (16s).
+	WDT_Disable();
 
+	// use the following code to change the watchdog default timeout (16s). Set wdp_ms as follows: {your intended timeout} * 256
+	//uint32_t wdp_ms = 4096;
+	//WDT_Enable(WDT, 0x2000 | wdp_ms | (wdp_ms << 16)); // can be called only once after the board starts
+	
+	// use WDT_Restart(WDT) in your code to reset the watchdog timer
+	
+	////////////// watchdog ///////////////////
    
     //setting serial ports
     gsm_port.begin(115200);  
