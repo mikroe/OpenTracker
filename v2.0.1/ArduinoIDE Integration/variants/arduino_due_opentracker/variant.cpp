@@ -307,8 +307,8 @@ void init( void )
     while (true);
   }
 
-  // Disable watchdog
-  WDT_Disable(WDT);
+  // Moved disabling watchdog to setup() to make it easy for developers to enable it
+  //WDT_Disable(WDT);
 
   // Initialize C library
   __libc_init_array();
