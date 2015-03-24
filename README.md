@@ -1,5 +1,5 @@
 #WARNING! 
-This repository will be shutdown soon. 
+This repository is no longer supported and will be shutdown soon. 
 
 Open Source development moved to https://github.com/geolink/opentracker
 
