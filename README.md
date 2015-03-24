@@ -2,7 +2,8 @@
 This repository will be shutdown soon. 
 Open Source development moved to https://github.com/geolink/opentracker
 
-Please update your bookmarks. We are sorry for any incontinence.
+Please update your bookmarks. This change will not affect current web interface tracking. 
+We are sorry for any incontinence.
 
 ---
 
