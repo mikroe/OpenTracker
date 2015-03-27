@@ -12,7 +12,7 @@ We are sorry for any inconvenience.
 #OpenTracker
 The first commercial grade, fully open source and 100% Arduino compatible GPS/GLONASS vehicle tracker with a powerful 32-bit ARM Cortex-M3 CPU.
 
-Official website: [http://opentracker.tigal.com](http://opentracker.tigal.com)
+Official website: [http://opentracker.opengps.net/](http://opentracker.opengps.net/)
 
 ---
 
